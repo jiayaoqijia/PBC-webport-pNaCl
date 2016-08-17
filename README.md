@@ -13,13 +13,15 @@ user@PC1:~/somedirectory/webports$ gclient config --unmanaged –name=src https:
 user@PC1:~/somedirectory/webports$ gclient sync --with_branch_heads
 </code></pre>
 
-Howto compile PBC for pNaCl:
+How to compile PBC for pNaCl:
 Copy this PBC directory to you Webports src/ports directory.
 Build the PBC lib as usual. e.g. 
 
 <pre><code>
-.../webports/src/ports/pbc$ NACL_ARCH=pnacl make pbc 
+.../webports/src/ports$ NACL_ARCH=pnacl make pbc 
 </code></pre>
 
-Tested with NaCL version: pepper_49 (stable) May 2016.
+Tested with NaCL version: pepper_49 (stable) Aug 2016.
+
+Contact: jiayaoqijia@gmail.com
 
